@@ -1,15 +1,15 @@
 let balance = 0;
-let name = `John Doe`;
+let name = `George Brown`;
 
 
 // Greet the user by name
       // Search the document for the 'username' element
-      let _username = document.getElementById('username');
-      // Change the content of the element
-      _username.innerHTML = name;
+let _username = document.getElementById('username');
+// Change the content of the element
+_username.innerHTML = name;
 
-      // The above can be simplified:
-      //    document.getElementById('username').innerHTML = name;
+// The above can be simplified:
+//    document.getElementById('username').innerHTML = name;
 
 
 
